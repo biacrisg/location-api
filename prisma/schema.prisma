@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://kwfbgwxo:XW5fmzAGv0eLZYo6ryxzXd8JXgbghizh@chunee.db.elephantsql.com:5432/kwfbgwxo?schema=geolocations"
+}
+
+model points_of_interest {
+  id           Int     @id @default(autoincrement())
+  name         String  @db.VarChar(255)
+  coordinate_x Int
+  coordinate_y Int
+  opening_time String? @db.VarChar(5)
+  closing_time String? @db.VarChar(5)
+}
