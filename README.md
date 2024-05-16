@@ -67,7 +67,7 @@ Payload:
 {
   "coordinate_x": "number",
   "coordinate_y": "number",
-  "distance": "number"
+  "time": "String"
 }
 ```
 
