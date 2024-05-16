@@ -46,7 +46,6 @@ export class LocationInterestService {
               point.coordinate_y - coordinate_y,
             ),
           );
-          console.log({pointDistance})
   
           const [openingHours, openingMinutes] = point.opening_time.split(':').map(Number);
           const [closingHours, closingMinutes] = point.closing_time.split(':').map(Number);
