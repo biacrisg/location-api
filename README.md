@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este é um projeto de API para gerenciar pontos de interesse com base na geolocalização. O projeto foi desenvolvido usando TypeScript, JavaScript e NPM.
+Este é um projeto de API para gerenciar pontos de interesse do usuário com base na geolocalização. O projeto foi desenvolvido usando TypeScript, JavaScript e NPM.
 
 ## Pré-requisitos
 
